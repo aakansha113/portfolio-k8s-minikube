@@ -59,7 +59,12 @@ my-portfolio/
 - Exposes port 80
 
 - Runs Nginx in the foreground
-
+  
+## 📥 Clone This Repository
+To clone this portfolio on your local system, run:
+```
+git clone https://github.com/aakansha113/portfolio-k8s-minikube.git
+```
 ## 📦 Docker Image (Prebuilt)
 
 The Docker image is already built and pushed to Docker Hub.
