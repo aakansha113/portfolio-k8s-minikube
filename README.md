@@ -182,7 +182,7 @@ minikube stop
 
 ### 👤 Author
 
-#### Akshu Hujare
+#### Aakansha Hujare
 
 ### ⭐ Support
 
