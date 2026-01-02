@@ -10,15 +10,15 @@ Docker → Docker Hub → Kubernetes.
 ## ✨ Key Highlights
 
 - 🎨 Clean, modern, and responsive UI
-
+  
 - 🐳 Dockerized using nginx:alpine for lightweight performance
-
-- ☁️ Deployed on Kubernetes (Minikube)
-
+  
+- ☁️ Deployed on Kubernetes (Minikube
+  
 - ⚙️ Kubernetes deployment without manifest (YAML) files
-
+  
 - 💼 DevOps-focused portfolio (AWS, Docker, Kubernetes, Terraform, Git)
-
+  
 - ⚡ Fast & lightweight (no frontend frameworks)
 
 ## 🧩 Project Architecture
@@ -65,9 +65,13 @@ my-portfolio/
 The Docker image is already built and pushed to Docker Hub.
 
 Docker Hub Repository:
+```
 https://hub.docker.com/r/aakansha113/portfolio
+```
 Image Used:
+```
 aakansha113/portfolio:v1.1
+```
 ### Note: Docker build & push steps are skipped here to keep the focus on Kubernetes deployment.
 
 ## ☸️ Kubernetes Deployment (Minikube – No YAML)
@@ -142,39 +146,39 @@ kubectl get svc will show the NodePort assigned by Minikube
 kubectl logs <pod-name>
 ```
 
-##🧹 Cleanup Resources:
+## 🧹 Cleanup Resources:
 ```
 kubectl delete service portfolio-app
 kubectl delete deployment portfolio-app
 minikube stop
 ```
 
-## 🛠️ Technologies Used
--HTML5
+##  🛠️ Technologies Used
+- HTML5
 
--CSS3
+- CSS3
 
--JavaScript
+- JavaScript
 
--Docker
+- Docker
 
-Nginx
+- Nginx
 
--Kubernetes (Minikube)
+- Kubernetes (Minikube)
 
--Git & GitHub
+- Git & GitHub
 
 ## 🎯 Learning Outcomes
 
--Docker image creation using Nginx
+- Docker image creation using Nginx
 
--Hosting images on Docker Hub
+- Hosting images on Docker Hub
 
--Kubernetes deployment without YAML files
+- Kubernetes deployment without YAML files
 
--Using kubectl imperative commands
+- Using kubectl imperative commands
 
--Service exposure using NodePort
+- Service exposure using NodePort
 
 ### 👤 Author
 
