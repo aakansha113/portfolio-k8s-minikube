@@ -25,6 +25,7 @@ Docker → Docker Hub → Kubernetes.
 Local Code → Docker Image → Docker Hub → Kubernetes (Minikube)
 
 ## Folder Structure
+```
 my-portfolio/
 │── index.html
 │── style.css
@@ -47,7 +48,7 @@ my-portfolio/
 │    ├── gmail.svg
 │    ├── linux.svg
 │           
-
+```
 ## 🐳 Dockerfile Overview
 
 - Uses nginx:alpine as the base image
