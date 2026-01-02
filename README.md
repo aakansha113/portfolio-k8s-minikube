@@ -24,7 +24,7 @@ Docker → Docker Hub → Kubernetes.
 ## 🧩 Project Architecture
 Local Code → Docker Image → Docker Hub → Kubernetes (Minikube)
 
-## Folder Structure
+##  📁 Folder Structure
 ```
 my-portfolio/
 │── index.html
